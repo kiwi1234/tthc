@@ -495,7 +495,7 @@ const PublicServicePortal = () => {
             </div>
 
             {/* Additional Info */}
-            <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-blue-500">
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
@@ -506,7 +506,6 @@ const PublicServicePortal = () => {
                   <div>
                     <h5 className="font-semibold text-gray-900 mb-2">Thời Gian Xử Lý</h5>
                     <p className="text-sm text-gray-600">Hầu hết hồ sơ được xử lý trong vòng 01 buổi làm việc. Kết quả học sinh/PHHS xem tại phần tra cứu tiến độ</p>
->>>>>>>
                   </div>
                 </div>
               </div>
@@ -521,6 +520,27 @@ const PublicServicePortal = () => {
                   <div>
                     <h5 className="font-semibold text-gray-900 mb-2">Bảo Mật Thông Tin</h5>
                     <p className="text-sm text-gray-600">Tất cả thông tin cá nhân và file đính kèm được bảo mật tuyệt đối theo quy định.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-orange-500 md:col-span-2 lg:col-span-1">
+                <div className="flex items-start">
+                  <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <svg className="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-gray-900 mb-2">Hỗ Trợ</h5>
+                    <p className="text-sm text-gray-600 mb-2">Các vấn đề cần hỗ trợ liên hệ:</p>
+                    <p className="text-sm font-medium text-gray-900">Ông Trần Thanh Vân</p>
+                    <p className="text-sm text-gray-600">Bộ phận Giáo vụ</p>
+                    <p className="text-sm font-semibold text-orange-600 mt-1">
+                      <a href="tel:0975406179" className="hover:text-orange-700">
+                        ☎ 0975.406.179
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -736,7 +756,6 @@ const PublicServicePortal = () => {
                   )}
                 </div>
               )}
->>>>
             </div>
 
             <div>
@@ -855,7 +874,6 @@ const PublicServicePortal = () => {
                 <strong>Lưu ý:</strong> Có thể tra cứu bằng mã hồ sơ hoặc số CCCD/CMND. 
                 Nếu gặp vấn đề, vui lòng liên hệ bộ phận giáo vụ.
             </p>
->>>>>>>
           </div>
         </div>
       </div>
@@ -974,7 +992,6 @@ const PublicServicePortal = () => {
                   <p><strong>Địa điểm:</strong> Bộ phận Giáo vụ của trường</p>
                   <p><strong>Mang theo:</strong> CCCD, mẫu đơn (nếu có)</p>
                 </div>
->>>>>>>
               </div>
             )}
 
